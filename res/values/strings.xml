@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TipCalculator</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="chck_amnt_lb">Check amount:</string>
+    <string name="tip_pct_lbl">Tip percentage:</string>
+    <string name="total_amnt_lbl">Total amount:</string>
+    <string name="round_lbl">Round up total amount</string>
+    <string name="currency_sign">$</string>
+    <string name="chck_amnt_hint">Check amount</string>
+    <string name="total_amnt_hint">Total amount</string>
+    <string name="logo">Logo</string>
+
+</resources>
