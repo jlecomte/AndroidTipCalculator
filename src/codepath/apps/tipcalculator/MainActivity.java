@@ -111,10 +111,11 @@ public class MainActivity extends Activity {
 
 	protected void computeValues() {
 		double checkAmount;
-		
+
 		etCheckAmount.setTextColor(Color.RED);
 		tvTotalAmountVal.setText("");
 		tvTipAmountVal.setText("");
+		tvErrorMessage.setText("");
 
 		if (etCheckAmount.getText().toString().trim().equals("")) {
 			return;
