@@ -10,36 +10,43 @@ package codepath.apps.tipcalculator;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int error_message=0x7f060000;
+    }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int tipjar=0x7f020001;
     }
     public static final class id {
-        public static final int activity_main=0x7f060000;
-        public static final int cbRndAmnt=0x7f060006;
-        public static final int etChckAmnt=0x7f060002;
-        public static final int sbTipPct=0x7f060005;
-        public static final int tvChckAmntLbl=0x7f060001;
-        public static final int tvTipPctLbl=0x7f060003;
-        public static final int tvTipPctVal=0x7f060004;
-        public static final int tvTotalAmntLbl=0x7f060007;
-        public static final int tvTotalAmntVal=0x7f060008;
+        public static final int activity_main=0x7f070000;
+        public static final int cbRoundAmount=0x7f070006;
+        public static final int etCheckAmount=0x7f070002;
+        public static final int sbTipPct=0x7f070005;
+        public static final int tvCheckAmountLbl=0x7f070001;
+        public static final int tvErrorMessage=0x7f07000b;
+        public static final int tvTipAmountLbl=0x7f070009;
+        public static final int tvTipAmountVal=0x7f07000a;
+        public static final int tvTipPctLbl=0x7f070003;
+        public static final int tvTipPctVal=0x7f070004;
+        public static final int tvTotalAmountLbl=0x7f070007;
+        public static final int tvTotalAmountVal=0x7f070008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int chck_amnt_hint=0x7f040008;
-        public static final int chck_amnt_lb=0x7f040003;
-        public static final int currency_sign=0x7f040007;
-        public static final int hello_world=0x7f040002;
-        public static final int logo=0x7f04000a;
-        public static final int round_lbl=0x7f040006;
-        public static final int tip_pct_lbl=0x7f040004;
+        public static final int check_amount_hint=0x7f040006;
+        public static final int check_amount_lbl=0x7f040002;
+        public static final int invalid_number=0x7f04000a;
+        public static final int logo=0x7f040008;
+        public static final int negative_number=0x7f04000c;
+        public static final int round_lbl=0x7f040005;
+        public static final int tip_amount_hint=0x7f04000b;
+        public static final int tip_amount_lbl=0x7f040009;
+        public static final int tip_pct_lbl=0x7f040003;
         public static final int title_activity_main=0x7f040001;
-        public static final int total_amnt_hint=0x7f040009;
-        public static final int total_amnt_lbl=0x7f040005;
+        public static final int total_amount_hint=0x7f040007;
+        public static final int total_amount_lbl=0x7f040004;
     }
     public static final class style {
         /** 
